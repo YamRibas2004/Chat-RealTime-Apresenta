@@ -16,18 +16,6 @@ h1 {
     font-family: 'Pacifico', cursive;
 }
 
-img {
-    border-radius: 15px;
-}
-
-
-#main-banner {
-    padding: 1000px;
-    position: absolute;
-    display: flex;
-    padding: 0;
-    overflow: hidden;
-}
 
 @media (min-width: 360px) {
     body{
@@ -43,14 +31,5 @@ img {
         iframe {
             width: 70%;
             height: 400px;
-        }
-
-        #main-banner {
-            position: absolute;
-            padding: 0;
-            overflow: hidden;
-            left: 600px;
-            top: -300px;
-        }
-        
+        } 
         }
