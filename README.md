@@ -1,1 +1,1 @@
-Feito para guardar a apresentação do repositório "ChatRealTime"
+Feito para guardar a apresentação do repositório "ChatRealTime-Javascript-"
