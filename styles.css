@@ -1,0 +1,56 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    background-color: rgba(17, 16, 16, 0.938);
+    text-align: center;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgba(234, 93, 93, 0.666);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+img {
+    border-radius: 15px;
+}
+
+
+#main-banner {
+    padding: 1000px;
+    position: absolute;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media (min-width: 360px) {
+    body{
+        background-color: rgba(17, 16, 16, 0.871);
+        
+    }
+    }
+
+    @media (min-height: 640px) {
+       body{
+           background-color: rgba(17, 16, 16, 0.871);
+       }
+        iframe {
+            width: 70%;
+            height: 400px;
+        }
+
+        #main-banner {
+            position: absolute;
+            padding: 0;
+            overflow: hidden;
+            left: 600px;
+            top: -300px;
+        }
+        
+        }
